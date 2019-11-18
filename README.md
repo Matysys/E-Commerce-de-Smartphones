@@ -13,6 +13,9 @@ Se você deseja dar uma olhada, acesse por esse link: http://technologymb.000web
 - Página para consultar os produtos disponíveis
 - Página para fazer um pedido
 - Página para consultar os pedidos feitos
+- Página RESTRITA para o administrador para controlar o estoque (adicionar/remove) e alterar o preço
+- Página RESTRITA para o administrador consultar os usuários
+- Página restrita para o administrador consultar os pedidos de cada usuário e aceitar
 
 # O que é esse projeto?
 Esse projeto é um simulador de uma loja virtual de smartphones (da qual eu usei a minha criatividade). O sistema de login está mais aprimorado, embora não esteja ainda 100% livre de falhas, ele está ainda mais aprimorado do que a aplicação anterior que eu criei, como exemplo, as senhas agora são criptografadas no Banco de Dados.
