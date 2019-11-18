@@ -7,9 +7,10 @@ Se você deseja dar uma olhada, acesse por esse link: http://technologymb.000web
 
 # O que há nesse projeto?
 - Página inicial
-- Página de cadastro
-- Página de login
+- Página de Cadastro
+- Página de Login
 - Página de Fale Conosco
+- Página para alterar a foto de perfil
 - Página para consultar os produtos disponíveis
 - Página para fazer um pedido
 - Página para consultar os pedidos feitos
