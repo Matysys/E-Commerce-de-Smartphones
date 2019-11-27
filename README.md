@@ -6,10 +6,11 @@ HTML, CSS, PHP, MySQL, um pouco de Bootstrap e JavaScript foram usados nesse gra
 Se você deseja dar uma olhada, acesse por esse link: http://technologymb.000webhostapp.com/
 
 # O que há nesse projeto?
-- Página inicial
+- Página inicial que se altera de acordo com o usuário
 - Página de Cadastro
 - Página de Login
 - Página de Fale Conosco
+- Página de recuperação de senha
 - Página para alterar a foto de perfil
 - Página para consultar os produtos disponíveis
 - Página para fazer um pedido
