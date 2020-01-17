@@ -15,7 +15,7 @@ Se você deseja dar uma olhada, acesse por esse link: http://technologymb.000web
 - Página para consultar os produtos disponíveis
 - Página para fazer um pedido
 - Página para consultar os pedidos feitos
-- Página RESTRITA para o administrador para controlar o estoque (adicionar/remove) e alterar o preço
+- Página RESTRITA para o administrador para controlar o estoque (adicionar/remover) e alterar o preço
 - Página RESTRITA para o administrador consultar os usuários
 - Página RESTRITA para o administrador consultar os pedidos de cada usuário e aceitar
 - Página RESTRITA que mostra um gráfico com as vendas gerais de smartphones
