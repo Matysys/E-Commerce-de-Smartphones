@@ -3,7 +3,7 @@ Projeto para a faculdade na disciplina de Programação Web. Um sistema Web simu
 HTML, CSS, PHP, MySQL, um pouco de Bootstrap e JavaScript foram usados nesse grande projeto.
 
 # Como acessar?
-Se você deseja dar uma olhada, acesse por esse link: http://technologymb.000webhostapp.com/
+Anteriormente o projeto estava hospedado na Web numa hospedagem gratuita, mas não está mais. Recomendo que baixe o repositório e reproduza por um servidor web.
 
 # O que há nesse projeto?
 - Página inicial que se altera de acordo com o usuário
