@@ -41,12 +41,6 @@ CREATE TABLE `cliente` (
 -- Extraindo dados da tabela `cliente`
 --
 
-INSERT INTO `cliente` (`usuario`, `email`, `senha`, `foto`, `cadstate`, `id_cliente`) VALUES
-('brulekeh', 'xxxxx', '$2y$10$/KdgTFzaomsnXAG6s/xXOuPRMwgDVHl5kMHHedE3eNJ3dMp3h9cFS', './perfil/0fd1279053a98eca0b579a9d7c19c8b3.jpg', 'ativo', 21),
-('xxxxx', 'xxxxxx', '$2y$10$wGTDDqI.fCC6Eqjlky818ujp9H5.OQEN06Fjfqsg9xmX4olcjvjNu', 'perfil/74581727d439406108e77035a670c243..jpg', 'ativo', 22),
-('mateusinho', 'xxxxx', '$2y$10$Ljx/DYKZEURtvB/3GvANsOuleasvMH5ofoY30Ucz.q4VDtDPq4iUu', 'perfil/ab555d48b0aeea87345baa9c3ee18da6..jpg', 'ativo', 46),
-('JohannesBrahms', 'xxxxx', '$2y$10$bn5mWSWRFmbQOAbfAjf76uzWCnIEYaQkM/8v6RgCXqqOngwzkOXpm', 'perfil/c296b1716667e9364d297311076705c0..jpg', 'ativo', 47);
-
 -- --------------------------------------------------------
 
 --

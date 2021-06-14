@@ -6,7 +6,7 @@ require_once "conexao.php";
 
 $usuario = filter_var($_POST['usuario'],FILTER_SANITIZE_SPECIAL_CHARS);
 $senha = filter_var($_POST['senha'],FILTER_SANITIZE_SPECIAL_CHARS);
-if($usuario == "xxxx" && $senha == "xxxx"){
+if($usuario == "admin" && $senha == "admin123"){
   session_start();
   $_SESSION['adm'] = "Administrador";
   mysqli_close($conn);
@@ -17,11 +17,16 @@ if($usuario == "xxxx" && $senha == "xxxx"){
 }
 $sqlcripto = "SELECT * FROM cliente WHERE email = '$usuario' OR usuario = '$usuario'";
 $result = mysqli_query($conn, $sqlcripto);
-$row = mysqli_fetch_array($result);
+$row = mysqli_fetch_assoc($result);
+if($row == null){
+  echo "Dados não conferem, tente novamente <a href='login.php'>aqui</a>";
+    mysqli_close($conn);
+    return;
+}
 if (password_verify($senha, $row['senha'])){
   $sqlativo = "SELECT * FROM cliente WHERE email = '$usuario' OR usuario = '$usuario'";
   $res = mysqli_query($conn, $sqlativo);
-  $row2 = mysqli_fetch_array($res);
+  $row2 = mysqli_fetch_assoc($res);
   if ($row2['cadstate'] == "ativo"){
     if(isset($_POST['guardar'])){
       setcookie("guardar", $usuario, time() + 3600);
