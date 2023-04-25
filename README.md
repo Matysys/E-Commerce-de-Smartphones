@@ -1,6 +1,6 @@
 # E-commerce de Smartphones
 Projeto para a faculdade na disciplina de Programação Web. Um sistema Web simulando um e-commerce de smartphones.
-Esse projeto tem o Backend e Frontend juntos, isso é, ele não faz requisições para APIs externas. Esse projeto cria uma página HTML dinâmica com o uso do PHP, e foi usado numa disciplina do curso de Análise e Desenvolvimento de Sistemas. O nome correto de renderização dessa tecnologoa é **Server-Side Rendering**.
+Esse projeto tem o Backend e Frontend juntos, isso é, ele não faz requisições para APIs externas. Esse projeto cria uma página HTML dinâmica com o uso do PHP, e foi usado numa disciplina do curso de Análise e Desenvolvimento de Sistemas. O nome correto de renderização dessa tecnologia é **Server-Side Rendering**.
 
 # Tecnologias usadas
 - [X] HTML
