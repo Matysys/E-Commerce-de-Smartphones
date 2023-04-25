@@ -1,9 +1,19 @@
 # E-commerce de Smartphones
 Projeto para a faculdade na disciplina de Programação Web. Um sistema Web simulando um e-commerce de smartphones.
-HTML, CSS, PHP, MySQL, um pouco de Bootstrap e JavaScript foram usados nesse grande projeto.
+Esse projeto tem o Backend e Frontend juntos, isso é, ele não faz requisições para APIs externas. Esse projeto cria uma página HTML dinâmica com o uso do PHP, e foi usado numa disciplina do curso de Análise e Desenvolvimento de Sistemas. O nome correto de renderização dessa tecnologoa é **Server-Side Rendering**.
+
+# Tecnologias usadas
+- [X] HTML
+- [X] CSS
+- [X] PHP Vanilla
+- [X] MySQL
+- [X] JavaScript
+- [X] Bootstrap 4
+- [X] Composer
 
 # Como acessar?
-Anteriormente o projeto estava hospedado na Web numa hospedagem gratuita, mas não está mais. Recomendo que baixe o repositório e reproduza por um servidor web.
+Anteriormente o projeto estava hospedado na Web numa hospedagem gratuita, mas não está mais. Recomendo que baixe o repositório e reproduza por um servidor web. Você pode fazer um clone do repositório se quiser também. Há um arquivo .SQL para você importar no seu banco de dados MySQL.
+Esse projeto não funciona como esperado em ```localhost``` porque não é possível mandar e-mails, então você também pode hospedar em algum provedor gratuito como o 000webhost.
 
 # O que há nesse projeto?
 - Página inicial que se altera de acordo com o usuário
