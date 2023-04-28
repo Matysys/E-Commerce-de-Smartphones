@@ -15,6 +15,22 @@ Esse projeto tem o Backend e Frontend juntos, isso é, ele não faz requisiçõe
 Anteriormente o projeto estava hospedado na Web numa hospedagem gratuita, mas não está mais. Recomendo que baixe o repositório e reproduza por um servidor web. Você pode fazer um clone do repositório se quiser também. Há um arquivo .SQL para você importar no seu banco de dados MySQL.
 Esse projeto não funciona como esperado em ```localhost``` porque não é possível mandar e-mails, então você também pode hospedar em algum provedor gratuito como o 000webhost.
 
+Há um arquivo chamado ```conexao.php```, mudem o caminho para o banco de dados MySQL por lá.
+```php
+<?php
+$hostname = "localhost"; //coloque o nome do host
+$username = "root"; //coloque o nome do usuário se houver
+$password = ""; //coloque a senha
+$db = "loja"; //coloque o nome do banco de dados
+
+$conn = mysqli_connect($hostname, $username, $password, $db);
+if(!$conn){
+    echo "Não vai";
+}
+
+?>
+```
+
 # O que há nesse projeto?
 - Página inicial que se altera de acordo com o usuário
 - Página de Cadastro
